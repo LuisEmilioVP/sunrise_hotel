@@ -10,3 +10,15 @@ E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseH.4F10A920.Up2Da
 E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.exe
 E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.pdb
 E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.frmMain.resources
+C:\Users\alexr\Source\Repos\sunrise_hotel\SunriseHotel\bin\Debug\SunriseHotel.exe.config
+C:\Users\alexr\Source\Repos\sunrise_hotel\SunriseHotel\bin\Debug\SunriseHotel.exe
+C:\Users\alexr\Source\Repos\sunrise_hotel\SunriseHotel\bin\Debug\SunriseHotel.pdb
+C:\Users\alexr\Source\Repos\sunrise_hotel\SunriseHotel\bin\Debug\Guna.UI2.dll
+C:\Users\alexr\Source\Repos\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.csproj.AssemblyReference.cache
+C:\Users\alexr\Source\Repos\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.frmMain.resources
+C:\Users\alexr\Source\Repos\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Properties.Resources.resources
+C:\Users\alexr\Source\Repos\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.csproj.GenerateResource.cache
+C:\Users\alexr\Source\Repos\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.csproj.CoreCompileInputs.cache
+C:\Users\alexr\Source\Repos\sunrise_hotel\SunriseHotel\obj\Debug\SunriseH.4F10A920.Up2Date
+C:\Users\alexr\Source\Repos\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.exe
+C:\Users\alexr\Source\Repos\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.pdb
