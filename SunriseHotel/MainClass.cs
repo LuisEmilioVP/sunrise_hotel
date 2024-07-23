@@ -1,9 +1,9 @@
 ﻿using System;
+using System.Collections;
 using System.Data;
 using System.Data.SqlClient;
-using System.Windows.Forms;
 using System.Drawing;
-using System.Collections;
+using System.Windows.Forms;
 using Guna.UI2.WinForms;
 
 
@@ -13,7 +13,7 @@ namespace SunriseHotel
     {
         // Server=DESKTOP-I17B7NG;Database=DBVENTA;User ID=sa;Password=@Data-Base;MultipleActiveResultSets=true
         
-        public static readonly string connet = " Data Source=ESMERALDA-SOFT\\SQLEXPRESS;Initial Catalog=db_sys_hotel;User ID=sa;Password=@Data-Base;Integrated Security=True";
+        public static readonly string connet = "Data Source=ESMERALDA-SOFT\\SQLEXPRESS;Initial Catalog=db_sys_hotel;User ID=sa;Password=@Data-Base;";
         public static SqlConnection con = new SqlConnection(connet);
 
         public static string usuario;
@@ -66,7 +66,7 @@ namespace SunriseHotel
         }
 
         // METODO CARGAR DATOS
-        public static void CargarData(string query, Guna2DataGridView data, System.Web.UI.WebControls.ListBox lb)
+        public static void CargarData(string query, DataGridView data, ListBox lb)
         {
             data.CellFormatting += new DataGridViewCellFormattingEventHandler(data_CellFormatting);
 
@@ -80,24 +80,10 @@ namespace SunriseHotel
 
                 for (int i = 0; i < lb.Items.Count; i++)
                 {
-                    string columnName = lb.Items[i].Text;
-
-                    if (data.Columns.Contains(columnName))
-                    {
-                        data.Columns[columnName].DataPropertyName = dt.Columns[i].ColumnName;
-                    }
-                    else
-                    {
-                        // Si la columna no existe en el DataGridView, crea una nueva columna
-                        DataGridViewTextBoxColumn column = new DataGridViewTextBoxColumn
-                        {
-                            Name = columnName,
-                            DataPropertyName = dt.Columns[i].ColumnName,
-                            HeaderText = columnName
-                        };
-                        data.Columns.Add(column);
-                    }
+                    string columnName = ((DataGridViewColumn)lb.Items[i]).Name;
+                    data.Columns[columnName].DataPropertyName = dt.Columns[i].ToString();
                 }
+
                 data.DataSource = dt;
             }
             catch (Exception ex)
@@ -149,7 +135,7 @@ namespace SunriseHotel
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message.ToString());
+                MessageBox.Show(ex.ToString());
                 con.Close();
             }
             return res;
@@ -166,7 +152,8 @@ namespace SunriseHotel
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);
-                cb.DisplayMember = "Nombre";
+
+                cb.DisplayMember = "name";
                 cb.ValueMember = "Id";
                 cb.DataSource = dt;
                 cb.SelectedIndex = 0;
@@ -185,17 +172,17 @@ namespace SunriseHotel
             {
                 Type type = item.GetType();
 
-                if(type == typeof(TextBox))
+                if(type == typeof(Guna2TextBox))
                 {
-                    item.Text = "";
+                    ((Guna2TextBox)item).Text = "";
                 }
-                else if (type == typeof(ComboBox))
+                else if (type == typeof(Guna2ComboBox))
                 {
-                    ((ComboBox)item).SelectedIndex = -1;
+                    ((Guna2ComboBox)item).SelectedIndex = -1;
                 }
-                else if (type == typeof(CheckBox))
+                else if (type == typeof(Guna2CheckBox))
                 {
-                    ((CheckBox)item).Checked = false;
+                    ((Guna2CheckBox)item).Checked = false;
                 }
             }
         }

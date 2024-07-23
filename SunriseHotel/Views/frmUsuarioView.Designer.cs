@@ -56,7 +56,8 @@
             this.tablaUsuario.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.tablaUsuario.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.tablaUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.tablaUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(156)))), ((int)(((byte)(18)))));
@@ -193,6 +194,7 @@
             this.txtBuscar.SelectedText = "";
             this.txtBuscar.Size = new System.Drawing.Size(328, 50);
             this.txtBuscar.TabIndex = 7;
+            this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
             // dgvSr
             // 
@@ -207,6 +209,7 @@
             this.dgvID.HeaderText = "id";
             this.dgvID.Name = "dgvID";
             this.dgvID.ReadOnly = true;
+            this.dgvID.Visible = false;
             // 
             // dgvNombre
             // 
@@ -242,6 +245,7 @@
             this.dgvPass.HeaderText = "Contraseña";
             this.dgvPass.Name = "dgvPass";
             this.dgvPass.ReadOnly = true;
+            this.dgvPass.Visible = false;
             // 
             // dgvedit
             // 
@@ -249,6 +253,7 @@
             this.dgvedit.FillWeight = 50F;
             this.dgvedit.HeaderText = "";
             this.dgvedit.Image = global::SunriseHotel.Properties.Resources.edit;
+            this.dgvedit.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.dgvedit.MinimumWidth = 50;
             this.dgvedit.Name = "dgvedit";
             this.dgvedit.ReadOnly = true;
@@ -260,6 +265,7 @@
             this.dgvDel.FillWeight = 50F;
             this.dgvDel.HeaderText = "";
             this.dgvDel.Image = global::SunriseHotel.Properties.Resources.delete;
+            this.dgvDel.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.dgvDel.MinimumWidth = 50;
             this.dgvDel.Name = "dgvDel";
             this.dgvDel.ReadOnly = true;

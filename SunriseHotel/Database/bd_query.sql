@@ -23,6 +23,9 @@ VALUES
 GO
 
 
+SELECT * FROM usuarios WHERE nombre LIKE 'Juan';
+GO
+
 SELECT * FROM usuarios
 GO
 
