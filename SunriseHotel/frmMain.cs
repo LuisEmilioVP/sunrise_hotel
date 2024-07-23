@@ -86,5 +86,15 @@ namespace SunriseHotel
         {
 
         }
+
+        private void itenReserva_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

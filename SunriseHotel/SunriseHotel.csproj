@@ -122,6 +122,11 @@
     <Content Include="assets\images\roon2.png" />
     <Content Include="assets\images\user.png" />
     <Content Include="assets\images\user2.png" />
+    <None Include="Resources\mapa %281%29.png" />
+    <None Include="Resources\Diseño sin título.png" />
+    <None Include="Resources\corazon3.png" />
+    <None Include="Resources\corazon %281%291.png" />
+    <None Include="Resources\corazon2.png" />
     <None Include="Resources\dia-del-calendario.png" />
     <None Include="Resources\angulo-pequeno-hacia-abajo.png" />
     <None Include="Resources\angulo-hacia-abajo.png" />
