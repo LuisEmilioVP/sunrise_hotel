@@ -52,32 +52,78 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAddInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddInfo.Designer.cs">
+      <DependentUpon>frmAddInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHone.Designer.cs">
+      <DependentUpon>frmHone.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="MainClass.cs" />
+    <Compile Include="Models\frmUsuarioAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Models\frmUsuarioAdd.Designer.cs">
+      <DependentUpon>frmUsuarioAdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDashboard.Designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmUsuarioView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmUsuarioView.Designer.cs">
+      <DependentUpon>frmUsuarioView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmAddInfo.resx">
+      <DependentUpon>frmAddInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHone.resx">
+      <DependentUpon>frmHone.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Models\frmUsuarioAdd.resx">
+      <DependentUpon>frmUsuarioAdd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
+    <EmbeddedResource Include="Views\frmDashboard.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmUsuarioView.resx">
+      <DependentUpon>frmUsuarioView.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -89,12 +135,20 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="assets\images\btnClose.png" />
+    <Content Include="assets\images\btnSave.png" />
     <Content Include="assets\images\cliet.png" />
     <Content Include="assets\images\cliet2.png" />
+    <Content Include="Database\bd_query.sql" />
+    <None Include="assets\images\close.png" />
     <Content Include="assets\images\cut.png" />
     <Content Include="assets\images\cut2.png" />
+    <Content Include="assets\images\delete.png" />
+    <Content Include="assets\images\edit.png" />
     <Content Include="assets\images\home.png" />
     <Content Include="assets\images\home2.png" />
+    <None Include="assets\images\logo_1.jpg" />
+    <None Include="assets\images\logo_2.png" />
     <Content Include="assets\images\logo_tem.png" />
     <Content Include="assets\images\roomtype.png" />
     <Content Include="assets\images\roomtype2.png" />

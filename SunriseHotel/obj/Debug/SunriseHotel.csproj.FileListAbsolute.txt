@@ -3,10 +3,15 @@ E:\Proyectos\Product\SunriseHotel\SunriseHotel\bin\Debug\SunriseHotel.exe
 E:\Proyectos\Product\SunriseHotel\SunriseHotel\bin\Debug\SunriseHotel.pdb
 E:\Proyectos\Product\SunriseHotel\SunriseHotel\bin\Debug\Guna.UI2.dll
 E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.csproj.AssemblyReference.cache
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.frmAddInfo.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.frmHone.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.frmMain.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.Models.frmUsuarioAdd.resources
 E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.Properties.Resources.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmDashboard.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmUsuarioView.resources
 E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.csproj.GenerateResource.cache
 E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.csproj.CoreCompileInputs.cache
 E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseH.4F10A920.Up2Date
 E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.exe
 E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.pdb
-E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.frmMain.resources
