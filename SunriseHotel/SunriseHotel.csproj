@@ -60,6 +60,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\UC_Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_Home.Designer.cs">
+      <DependentUpon>UC_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_Search.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_Search.Designer.cs">
+      <DependentUpon>UC_Search.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -73,6 +85,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UserControls\UC_Home.resx">
+      <DependentUpon>UC_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_Search.resx">
+      <DependentUpon>UC_Search.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -87,7 +105,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="imagenes\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="assets\images\cliet.png" />
     <Content Include="assets\images\cliet2.png" />
@@ -102,6 +122,31 @@
     <Content Include="assets\images\roon2.png" />
     <Content Include="assets\images\user.png" />
     <Content Include="assets\images\user2.png" />
+    <None Include="Resources\dia-del-calendario.png" />
+    <None Include="Resources\angulo-pequeno-hacia-abajo.png" />
+    <None Include="Resources\angulo-hacia-abajo.png" />
+    <None Include="Resources\ubicacion-de-la-capa-terrestre.png" />
+    <None Include="Resources\mapa.png" />
+    <None Include="Resources\HabitacionesNew.png" />
+    <None Include="Resources\SearchedHabs.png" />
+    <None Include="Resources\sobre %282%291.png" />
+    <None Include="Resources\sobre %282%29.png" />
+    <None Include="Resources\sobre1.png" />
+    <None Include="Resources\sobre %281%29.png" />
+    <None Include="Resources\sobre.png" />
+    <None Include="Resources\campana %281%29.png" />
+    <None Include="Resources\campana.png" />
+    <None Include="Resources\corazon1.png" />
+    <None Include="Resources\corazon %281%29.png" />
+    <None Include="Resources\corazon.png" />
+    <None Include="Resources\Es tiempo de que planees tus vacaciones!!.png" />
+    <None Include="Resources\Obten descuentos exclusivos por tu estadia..png" />
+    <None Include="Resources\Disfruta de unas vacaciones vacanasss.png" />
+    <None Include="Resources\Premier_Presidential_suite_balcony-sinhd.jpg" />
+    <None Include="Resources\585e4adacb11b227491c3392.png" />
+    <None Include="Resources\iconbuscador.jpg" />
+    <None Include="Resources\image.png" />
+    <None Include="Resources\pixelcut-export %283%29.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

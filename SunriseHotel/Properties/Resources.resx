@@ -118,23 +118,74 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="logo_tem" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\assets\images\logo_tem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cliet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\assets\images\cliet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cliet2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\assets\images\cliet2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="cut" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\assets\images\cut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\images\home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="corazon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\corazon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sobre (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sobre (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="roon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\images\roon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SearchedHabs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SearchedHabs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cut2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\assets\images\cut2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\assets\images\home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="campana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\campana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cliet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\images\cliet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="585e4adacb11b227491c3392" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\585e4adacb11b227491c3392.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\images\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="roomtype2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\images\roomtype2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sobre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sobre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pixelcut-export (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pixelcut-export (3).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sobre1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sobre1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HabitacionesNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HabitacionesNew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="roon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\images\roon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ubicacion-de-la-capa-terrestre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ubicacion-de-la-capa-terrestre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconbuscador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconbuscador.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\images\user2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Obten descuentos exclusivos por tu estadia." type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Obten descuentos exclusivos por tu estadia..png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="home2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\assets\images\home2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,19 +193,43 @@
   <data name="roomtype" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\assets\images\roomtype.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="roomtype2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\assets\images\roomtype2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="corazon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\corazon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="roon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\assets\images\roon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="angulo-hacia-abajo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angulo-hacia-abajo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="roon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\assets\images\roon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sobre (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sobre (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\assets\images\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="campana (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\campana (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\assets\images\user2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Premier_Presidential_suite_balcony-sinhd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Premier_Presidential_suite_balcony-sinhd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_tem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\images\logo_tem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sobre (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sobre (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Es tiempo de que planees tus vacaciones!!" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Es tiempo de que planees tus vacaciones!!.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cliet2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\images\cliet2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\corazon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angulo-pequeno-hacia-abajo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angulo-pequeno-hacia-abajo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Disfruta de unas vacaciones vacanasss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Disfruta de unas vacaciones vacanasss.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dia-del-calendario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dia-del-calendario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

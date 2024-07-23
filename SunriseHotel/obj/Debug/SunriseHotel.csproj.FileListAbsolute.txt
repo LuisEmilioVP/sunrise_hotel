@@ -22,3 +22,5 @@ C:\Users\alexr\Source\Repos\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.cs
 C:\Users\alexr\Source\Repos\sunrise_hotel\SunriseHotel\obj\Debug\SunriseH.4F10A920.Up2Date
 C:\Users\alexr\Source\Repos\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.exe
 C:\Users\alexr\Source\Repos\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.pdb
+C:\Users\alexr\source\repos\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.UserControls.UC_Home.resources
+C:\Users\alexr\source\repos\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.UserControls.UC_Search.resources
