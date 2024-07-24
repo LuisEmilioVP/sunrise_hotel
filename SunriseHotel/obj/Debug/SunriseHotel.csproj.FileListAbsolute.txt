@@ -10,3 +10,15 @@ E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseH.4F10A920.Up2Da
 E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.exe
 E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.pdb
 E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.frmMain.resources
+C:\Users\diana\Desktop\ProyectHOTEL\SunriseHotel\bin\Debug\SunriseHotel.exe.config
+C:\Users\diana\Desktop\ProyectHOTEL\SunriseHotel\bin\Debug\SunriseHotel.exe
+C:\Users\diana\Desktop\ProyectHOTEL\SunriseHotel\bin\Debug\SunriseHotel.pdb
+C:\Users\diana\Desktop\ProyectHOTEL\SunriseHotel\bin\Debug\Guna.UI2.dll
+C:\Users\diana\Desktop\ProyectHOTEL\SunriseHotel\obj\Debug\SunriseHotel.csproj.AssemblyReference.cache
+C:\Users\diana\Desktop\ProyectHOTEL\SunriseHotel\obj\Debug\SunriseHotel.frmMain.resources
+C:\Users\diana\Desktop\ProyectHOTEL\SunriseHotel\obj\Debug\SunriseHotel.Properties.Resources.resources
+C:\Users\diana\Desktop\ProyectHOTEL\SunriseHotel\obj\Debug\SunriseHotel.csproj.GenerateResource.cache
+C:\Users\diana\Desktop\ProyectHOTEL\SunriseHotel\obj\Debug\SunriseHotel.csproj.CoreCompileInputs.cache
+C:\Users\diana\Desktop\ProyectHOTEL\SunriseHotel\obj\Debug\SunriseH.4F10A920.Up2Date
+C:\Users\diana\Desktop\ProyectHOTEL\SunriseHotel\obj\Debug\SunriseHotel.exe
+C:\Users\diana\Desktop\ProyectHOTEL\SunriseHotel\obj\Debug\SunriseHotel.pdb
