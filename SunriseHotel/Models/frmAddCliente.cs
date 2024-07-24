@@ -1,19 +1,18 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
 using System.Collections;
-using Guna.UI2.WinForms;
 
 namespace SunriseHotel.Models
 {
-    public partial class frmUsuarioAdd : frmAddInfo
+    public partial class frmAddCliente : frmHone
     {
-        public frmUsuarioAdd()
+        public frmAddCliente()
         {
             InitializeComponent();
         }
 
         public int id = 0;
 
-        public override void btnGuardar_Click(object sender, EventArgs e)
+        private void btnGuardar_Click(object sender, System.EventArgs e)
         {
             if (MainClass.ItensIsEmpty(this))
             {
@@ -27,21 +26,20 @@ namespace SunriseHotel.Models
 
             if (id == 0) // Guardar
             {
-                query = @"INSERT INTO usuarios VALUES(@nombre,@apellido,@email,@telefono,@clave) ";
+                query = @"INSERT INTO clientes VALUES(@nombre,@apellido,@email,@telefono) ";
             }
             else // Editar
             {
-                query = @"UPDATE usuarios SET nombre=@nombre,apellido=@apellido,email=@email,telefono=@telefono,clave=@clave
-                            WHERE id_usuario = @id_usuario ";
+                query = @"UPDATE clientes SET nombre=@nombre,apellido=@apellido,email=@email,telefono=@telefono
+                            WHERE id_cliente = @id_cliente ";
             }
 
             Hashtable ht = new Hashtable();
-            ht.Add("@id_usuario", id);
+            ht.Add("@id_cliente", id);
             ht.Add("@nombre", txtNombre.Text);
             ht.Add("@apellido", txtApellido.Text);
-            ht.Add("@email", txtCorreo.Text);
+            ht.Add("@email", txtEmail.Text);
             ht.Add("@telefono", txtTelefono.Text);
-            ht.Add("@clave", txtPass.Text);
 
             int r = MainClass.SQL(query, ht);
 
@@ -51,7 +49,12 @@ namespace SunriseHotel.Models
                 txtNombre.Focus();
                 messageSystem.Show("Datos guardados correctamente.");
                 id = 0;
-            }   
+            }
+        }
+
+        private void btnCerrar_Click(object sender, System.EventArgs e)
+        {
+            this.Close();
         }
     }
 }

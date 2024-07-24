@@ -47,7 +47,27 @@ namespace SunriseHotel
 
         private void itenUsuario_Click(object sender, EventArgs e)
         {
-            AddControll(new frmUsuarioView());
+            AddControll(new frmUsuariosView());
+        }
+
+        private void itenTipoHabit_Click(object sender, EventArgs e)
+        {
+            AddControll(new frmTipoHabitView());
+        }
+
+        private void itenCliente_Click(object sender, EventArgs e)
+        {
+            AddControll(new frmClientesView());
+        }
+
+        private void itenHabitacion_Click(object sender, EventArgs e)
+        {
+            AddControll(new frmHabitacionesView());
+        }
+
+        private void itenReserva_Click(object sender, EventArgs e)
+        {
+            AddControll(new frmReservasView());
         }
     }
 }

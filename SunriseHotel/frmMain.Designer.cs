@@ -41,9 +41,12 @@
             this.btnMin = new Guna.UI2.WinForms.Guna2ControlBox();
             this.btnMaxi = new Guna.UI2.WinForms.Guna2ControlBox();
             this.btnClose = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.navMenuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            this.containerPanel.SuspendLayout();
             this.navPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // navMenuPanel
@@ -120,6 +123,7 @@
             this.itenTipoHabit.Text = "Tipo Habitacion";
             this.itenTipoHabit.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.itenTipoHabit.TextOffset = new System.Drawing.Point(30, 0);
+            this.itenTipoHabit.Click += new System.EventHandler(this.itenTipoHabit_Click);
             // 
             // itenHabitacion
             // 
@@ -149,6 +153,7 @@
             this.itenHabitacion.Text = "Habitaciones";
             this.itenHabitacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.itenHabitacion.TextOffset = new System.Drawing.Point(30, 0);
+            this.itenHabitacion.Click += new System.EventHandler(this.itenHabitacion_Click);
             // 
             // itenCliente
             // 
@@ -178,6 +183,7 @@
             this.itenCliente.Text = "Clientes";
             this.itenCliente.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.itenCliente.TextOffset = new System.Drawing.Point(30, 0);
+            this.itenCliente.Click += new System.EventHandler(this.itenCliente_Click);
             // 
             // itenReserva
             // 
@@ -207,14 +213,15 @@
             this.itenReserva.Text = "Reservas";
             this.itenReserva.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.itenReserva.TextOffset = new System.Drawing.Point(30, 0);
+            this.itenReserva.Click += new System.EventHandler(this.itenReserva_Click);
             // 
             // guna2PictureBox1
             // 
-            this.guna2PictureBox1.Image = global::SunriseHotel.Properties.Resources.logo_tem;
+            this.guna2PictureBox1.Image = global::SunriseHotel.Properties.Resources.logo_2;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(54, 12);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(192, 169);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(302, 194);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -251,6 +258,7 @@
             // 
             // containerPanel
             // 
+            this.containerPanel.Controls.Add(this.guna2PictureBox2);
             this.containerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.containerPanel.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.containerPanel.Location = new System.Drawing.Point(305, 0);
@@ -302,6 +310,20 @@
             this.btnClose.Size = new System.Drawing.Size(82, 47);
             this.btnClose.TabIndex = 0;
             // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2PictureBox2.Image = global::SunriseHotel.Properties.Resources.logo_1;
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(37, 72);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(973, 760);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox2.TabIndex = 0;
+            this.guna2PictureBox2.TabStop = false;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -320,7 +342,9 @@
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.navMenuPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            this.containerPanel.ResumeLayout(false);
             this.navPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -340,6 +364,7 @@
         private Guna.UI2.WinForms.Guna2ControlBox btnClose;
         private Guna.UI2.WinForms.Guna2ControlBox btnMin;
         private Guna.UI2.WinForms.Guna2ControlBox btnMaxi;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
     }
 }
 
