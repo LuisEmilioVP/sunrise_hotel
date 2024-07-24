@@ -11,9 +11,9 @@ namespace SunriseHotel
 {
     class MainClass
     {
-        // Server=DESKTOP-I17B7NG;Database=DBVENTA;User ID=sa;Password=@Data-Base;MultipleActiveResultSets=true
-        
-        public static readonly string connet = "Data Source=ESMERALDA-SOFT\\SQLEXPRESS;Initial Catalog=db_sys_hotel;User ID=sa;Password=@Data-Base;";
+        // Server=DESKTOP-J06ALTK\SQLEXPRESS;Database=DBVENTA;User ID=admin_3;Password=diana;MultipleActiveResultSets=true
+
+        public static readonly string connet = "Data Source=DESKTOP-J06ALTK\\SQLEXPRESS;Initial Catalog=db_sys_hotel;User ID=admin_3;Password=diana;";
         public static SqlConnection con = new SqlConnection(connet);
 
         public static string usuario;
