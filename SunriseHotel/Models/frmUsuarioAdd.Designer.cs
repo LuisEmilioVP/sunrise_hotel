@@ -204,6 +204,7 @@
             this.txtPass.SelectedText = "";
             this.txtPass.Size = new System.Drawing.Size(298, 50);
             this.txtPass.TabIndex = 4;
+            this.txtPass.UseSystemPasswordChar = true;
             // 
             // frmUsuarioAdd
             // 

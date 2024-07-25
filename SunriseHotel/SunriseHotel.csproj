@@ -71,6 +71,30 @@
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="MainClass.cs" />
+    <Compile Include="Models\frmAddCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Models\frmAddCliente.Designer.cs">
+      <DependentUpon>frmAddCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\frmAddHabitacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Models\frmAddHabitacion.Designer.cs">
+      <DependentUpon>frmAddHabitacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\frmAddReservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Models\frmAddReservas.Designer.cs">
+      <DependentUpon>frmAddReservas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\frmAddTipoHabit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Models\frmAddTipoHabit.Designer.cs">
+      <DependentUpon>frmAddTipoHabit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\frmUsuarioAdd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,17 +103,41 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\frmClientesView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmClientesView.Designer.cs">
+      <DependentUpon>frmClientesView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\frmDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\frmDashboard.Designer.cs">
       <DependentUpon>frmDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\frmUsuarioView.cs">
+    <Compile Include="Views\frmHabitacionesView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\frmUsuarioView.Designer.cs">
-      <DependentUpon>frmUsuarioView.cs</DependentUpon>
+    <Compile Include="Views\frmHabitacionesView.Designer.cs">
+      <DependentUpon>frmHabitacionesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReservasView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReservasView.Designer.cs">
+      <DependentUpon>frmReservasView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmTipoHabitView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmTipoHabitView.Designer.cs">
+      <DependentUpon>frmTipoHabitView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmUsuariosView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmUsuariosView.Designer.cs">
+      <DependentUpon>frmUsuariosView.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="frmAddInfo.resx">
       <DependentUpon>frmAddInfo.cs</DependentUpon>
@@ -100,6 +148,18 @@
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Models\frmAddCliente.resx">
+      <DependentUpon>frmAddCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Models\frmAddHabitacion.resx">
+      <DependentUpon>frmAddHabitacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Models\frmAddReservas.resx">
+      <DependentUpon>frmAddReservas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Models\frmAddTipoHabit.resx">
+      <DependentUpon>frmAddTipoHabit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Models\frmUsuarioAdd.resx">
       <DependentUpon>frmUsuarioAdd.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,11 +168,23 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmClientesView.resx">
+      <DependentUpon>frmClientesView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\frmDashboard.resx">
       <DependentUpon>frmDashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\frmUsuarioView.resx">
-      <DependentUpon>frmUsuarioView.cs</DependentUpon>
+    <EmbeddedResource Include="Views\frmHabitacionesView.resx">
+      <DependentUpon>frmHabitacionesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReservasView.resx">
+      <DependentUpon>frmReservasView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmTipoHabitView.resx">
+      <DependentUpon>frmTipoHabitView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmUsuariosView.resx">
+      <DependentUpon>frmUsuariosView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

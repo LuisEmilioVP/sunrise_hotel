@@ -1,19 +1,19 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections;
-using Guna.UI2.WinForms;
 
 namespace SunriseHotel.Models
 {
-    public partial class frmUsuarioAdd : frmAddInfo
+    public partial class frmAddTipoHabit : frmHone
     {
-        public frmUsuarioAdd()
+        public frmAddTipoHabit()
         {
             InitializeComponent();
         }
 
         public int id = 0;
 
-        public override void btnGuardar_Click(object sender, EventArgs e)
+        private void btnGuardar_Click(object sender, EventArgs e)
         {
             if (MainClass.ItensIsEmpty(this))
             {
@@ -27,21 +27,18 @@ namespace SunriseHotel.Models
 
             if (id == 0) // Guardar
             {
-                query = @"INSERT INTO usuarios VALUES(@nombre,@apellido,@email,@telefono,@clave) ";
+                query = @"INSERT INTO tipo_habitacion VALUES(@tipo_nombre,@tipo_descripcion) ";
             }
             else // Editar
             {
-                query = @"UPDATE usuarios SET nombre=@nombre,apellido=@apellido,email=@email,telefono=@telefono,clave=@clave
-                            WHERE id_usuario = @id_usuario ";
+                query = @"UPDATE tipo_habitacion SET tipo_nombre=@tipo_nombre,tipo_descripcion=@tipo_descripcion
+                            WHERE id_tipo_habitacion = @id_tipo_habitacion ";
             }
 
             Hashtable ht = new Hashtable();
-            ht.Add("@id_usuario", id);
-            ht.Add("@nombre", txtNombre.Text);
-            ht.Add("@apellido", txtApellido.Text);
-            ht.Add("@email", txtCorreo.Text);
-            ht.Add("@telefono", txtTelefono.Text);
-            ht.Add("@clave", txtPass.Text);
+            ht.Add("@id_tipo_habitacion", id);
+            ht.Add("@tipo_nombre", txtNombre.Text);
+            ht.Add("@tipo_descripcion", txtDescripcion.Text);
 
             int r = MainClass.SQL(query, ht);
 
@@ -51,7 +48,12 @@ namespace SunriseHotel.Models
                 txtNombre.Focus();
                 messageSystem.Show("Datos guardados correctamente.");
                 id = 0;
-            }   
+            }
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

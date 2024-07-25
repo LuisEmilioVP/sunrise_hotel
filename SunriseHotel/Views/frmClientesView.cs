@@ -1,18 +1,18 @@
 ﻿using SunriseHotel.Models;
-using System;
 using System.Collections;
 using System.Windows.Forms;
+using System;
 
 namespace SunriseHotel.Views
 {
-    public partial class frmUsuarioView : frmHone
+    public partial class frmClientesView : frmHone
     {
-        public frmUsuarioView()
+        public frmClientesView()
         {
             InitializeComponent();
         }
 
-        private void frmUsuarioView_Load(object sender, EventArgs e)
+        private void frmClientesView_Load(object sender, System.EventArgs e)
         {
             CargarDataUsers();
         }
@@ -23,36 +23,35 @@ namespace SunriseHotel.Views
             lb.Items.Add(dgvID);
             lb.Items.Add(dgvNombre);
             lb.Items.Add(dgvApellido);
-            lb.Items.Add(dgvTel);
             lb.Items.Add(dgvEmail);
-            lb.Items.Add(dgvPass);
+            lb.Items.Add(dgvTelefono);
 
-            string query = @"SELECT * FROM usuarios WHERE nombre LIKE '%" + txtBuscar.Text + "%'";
+            string query = @"SELECT * FROM clientes WHERE nombre LIKE '%" + txtBuscar.Text + "%'";
 
-            MainClass.CargarData(query, tablaUsuario, lb);
+            MainClass.CargarData(query, tablaCliente, lb);
         }
 
-        private void tablaUsuario_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void tablaCliente_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             // Actualizar
-            if (tablaUsuario.CurrentCell.OwningColumn.Name == "dgvedit" && e.RowIndex != -1)
+            if (tablaCliente.CurrentCell.OwningColumn.Name == "dgvedit" && e.RowIndex != -1)
             {
-                frmUsuarioAdd frm = new frmUsuarioAdd();
-                frm.id = Convert.ToInt32(tablaUsuario.CurrentRow.Cells["dgvID"].Value);
-                frm.txtNombre.Text = Convert.ToString(tablaUsuario.CurrentRow.Cells["dgvNombre"].Value);
-                frm.txtApellido.Text = Convert.ToString(tablaUsuario.CurrentRow.Cells["dgvApellido"].Value);
-                frm.txtTelefono.Text = Convert.ToString(tablaUsuario.CurrentRow.Cells["dgvTel"].Value);
-                frm.txtCorreo.Text = Convert.ToString(tablaUsuario.CurrentRow.Cells["dgvEmail"].Value);
-                frm.txtPass.Text = Convert.ToString(tablaUsuario.CurrentRow.Cells["dgvPass"].Value);
+                frmAddCliente frm = new frmAddCliente();
+
+                frm.id = Convert.ToInt32(tablaCliente.CurrentRow.Cells["dgvID"].Value);
+                frm.txtNombre.Text = Convert.ToString(tablaCliente.CurrentRow.Cells["dgvNombre"].Value);
+                frm.txtApellido.Text = Convert.ToString(tablaCliente.CurrentRow.Cells["dgvApellido"].Value);
+                frm.txtEmail.Text = Convert.ToString(tablaCliente.CurrentRow.Cells["dgvEmail"].Value);
+                frm.txtTelefono.Text = Convert.ToString(tablaCliente.CurrentRow.Cells["dgvTelefono"].Value);
 
                 MainClass.BlurBackground(frm);
                 CargarDataUsers();
             }
 
             // Eliminar
-            if (tablaUsuario.CurrentCell.OwningColumn.Name == "dgvDel" && e.RowIndex != -1)
+            if (tablaCliente.CurrentCell.OwningColumn.Name == "dgvDel" && e.RowIndex != -1)
             {
-                DataGridViewRow row = tablaUsuario.CurrentRow;
+                DataGridViewRow row = tablaCliente.CurrentRow;
                 int ID = Convert.ToInt32(row.Cells["dgvID"].Value);
 
                 if (ID != 0)
@@ -64,7 +63,7 @@ namespace SunriseHotel.Views
                     {
                         try
                         {
-                            string query = @"DELETE FROM usuarios WHERE id_usuario = " + ID + "";
+                            string query = @"DELETE FROM clientes WHERE id_cliente = " + ID + "";
                             Hashtable ht = new Hashtable();
 
                             int r = MainClass.SQL(query, ht);
@@ -96,7 +95,7 @@ namespace SunriseHotel.Views
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            MainClass.BlurBackground(new frmUsuarioAdd());
+            MainClass.BlurBackground(new frmAddCliente());
 
             CargarDataUsers();
         }
