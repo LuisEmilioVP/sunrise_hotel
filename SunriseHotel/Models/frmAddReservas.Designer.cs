@@ -37,9 +37,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtFechaIn = new Guna.UI2.WinForms.Guna2TextBox();
             this.footerPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.headerPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.btnCerrar = new Guna.UI2.WinForms.Guna2Button();
             this.btnGuardar = new Guna.UI2.WinForms.Guna2Button();
+            this.headerPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.txtFechaOut = new Guna.UI2.WinForms.Guna2TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -180,16 +180,6 @@
             this.footerPanel.TabIndex = 41;
             this.footerPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.footerPanel_Paint);
             // 
-            // headerPanel
-            // 
-            this.headerPanel.Controls.Add(this.lblTitle);
-            this.headerPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.headerPanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(156)))), ((int)(((byte)(18)))));
-            this.headerPanel.Location = new System.Drawing.Point(0, 0);
-            this.headerPanel.Name = "headerPanel";
-            this.headerPanel.Size = new System.Drawing.Size(926, 126);
-            this.headerPanel.TabIndex = 42;
-            // 
             // btnCerrar
             // 
             this.btnCerrar.Animated = true;
@@ -243,6 +233,16 @@
             this.btnGuardar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnGuardar.TextOffset = new System.Drawing.Point(20, 0);
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
+            // headerPanel
+            // 
+            this.headerPanel.Controls.Add(this.lblTitle);
+            this.headerPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.headerPanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(156)))), ((int)(((byte)(18)))));
+            this.headerPanel.Location = new System.Drawing.Point(0, 0);
+            this.headerPanel.Name = "headerPanel";
+            this.headerPanel.Size = new System.Drawing.Size(926, 126);
+            this.headerPanel.TabIndex = 42;
             // 
             // label5
             // 
@@ -358,9 +358,9 @@
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(156)))), ((int)(((byte)(18)))));
             this.label7.Location = new System.Drawing.Point(385, 278);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(79, 21);
+            this.label7.Size = new System.Drawing.Size(61, 21);
             this.label7.TabIndex = 55;
-            this.label7.Text = "Cantidad";
+            this.label7.Text = "Monto";
             // 
             // txtRecibido
             // 

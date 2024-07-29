@@ -88,8 +88,9 @@ GO
 SELECT * FROM reservaciones
 GO
 
-SELECT r.id_reservacion, r.id_cliente, c.nombre, r.id_habitacion, h.hab_nombre, r.fecha_entrada, r.fecha_salida, r.dias, r.cantidad, r.estatus
+SELECT r.id_reservacion, r.id_cliente, c.nombre, r.id_habitacion, h.hab_nombre, r.fecha_entrada, r.fecha_salida, r.estatus, r.dias, r.precio, r.cantidad, r.recibido, r.cambiar
 FROM reservaciones r
 INNER JOIN clientes c ON c.id_cliente = r.id_cliente
 INNER JOIN habitacion h ON h.id_habitacion = r.id_habitacion
+WHERE h.hab_nombre LIKE "";
 Go
