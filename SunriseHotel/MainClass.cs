@@ -166,6 +166,7 @@ namespace SunriseHotel
             }
         }
 
+        // METODO LIMPIAR FORM
         public static void ClearAll (Form form)
         {
             foreach (Control item in form.Controls)
@@ -185,6 +186,30 @@ namespace SunriseHotel
                     ((Guna2CheckBox)item).Checked = false;
                 }
             }
+        }
+
+        // METODO CAMPOS VACIOS
+        public static bool ItensIsEmpty (Form form)
+        {
+            foreach (Control item in form.Controls)
+            {
+                Type type = item.GetType();
+
+                if (type == typeof(Guna2TextBox) && ((Guna2TextBox)item).Text == "")
+                {
+                    return true;
+                }
+                else if (type == typeof(Guna2ComboBox) && ((Guna2ComboBox)item).SelectedIndex == -1)
+                {
+                    return true;
+                }
+                else if (type == typeof(Guna2CheckBox) && ((Guna2CheckBox)item).Checked == false)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
     }
 }

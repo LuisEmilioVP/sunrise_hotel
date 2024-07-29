@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\alexr\OneDrive\Escritorio\HotelSunrise\sunrise_hotel\SunriseHotel\bin\Debug\SunriseHotel.exe.config
 C:\Users\alexr\OneDrive\Escritorio\HotelSunrise\sunrise_hotel\SunriseHotel\bin\Debug\SunriseHotel.exe
 C:\Users\alexr\OneDrive\Escritorio\HotelSunrise\sunrise_hotel\SunriseHotel\bin\Debug\SunriseHotel.pdb
@@ -15,3 +16,64 @@ C:\Users\alexr\OneDrive\Escritorio\HotelSunrise\sunrise_hotel\SunriseHotel\obj\D
 C:\Users\alexr\OneDrive\Escritorio\HotelSunrise\sunrise_hotel\SunriseHotel\obj\Debug\SunriseH.4F10A920.Up2Date
 C:\Users\alexr\OneDrive\Escritorio\HotelSunrise\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.exe
 C:\Users\alexr\OneDrive\Escritorio\HotelSunrise\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.pdb
+=======
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\bin\Debug\SunriseHotel.exe.config
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\bin\Debug\SunriseHotel.exe
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\bin\Debug\SunriseHotel.pdb
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\bin\Debug\Guna.UI2.dll
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.csproj.AssemblyReference.cache
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.frmAddInfo.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.frmHone.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.frmMain.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.Models.frmAddTipoHabit.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.Models.frmUsuarioAdd.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.Properties.Resources.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmDashboard.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmTipoHabitView.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmUsuariosView.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.csproj.GenerateResource.cache
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.csproj.CoreCompileInputs.cache
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseH.4F10A920.Up2Date
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.exe
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.pdb
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmClientesView.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.Models.frmAddCliente.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmHabitacionesView.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.Models.frmAddHabitacion.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.Models.frmAddReservas.resources
+E:\Proyectos\Product\SunriseHotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmReservasView.resources
+>>>>>>> 808626499957c074f1c0104a82f358e2baf10896
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Models.frmAddCliente.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Models.frmAddHabitacion.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Models.frmAddReservas.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Models.frmAddTipoHabit.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmClientesView.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmHabitacionesView.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmReservasView.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmTipoHabitView.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmUsuariosView.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\bin\Debug\SunriseHotel.exe.config
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\bin\Debug\SunriseHotel.exe
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\bin\Debug\SunriseHotel.pdb
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\bin\Debug\Guna.UI2.dll
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.csproj.AssemblyReference.cache
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.frmAddInfo.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.frmHone.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.frmMain.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Models.frmAddCliente.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Models.frmAddHabitacion.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Models.frmAddReservas.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Models.frmAddTipoHabit.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Models.frmUsuarioAdd.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Properties.Resources.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmClientesView.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmDashboard.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmHabitacionesView.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmReservasView.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmTipoHabitView.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.Views.frmUsuariosView.resources
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.csproj.GenerateResource.cache
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.csproj.CoreCompileInputs.cache
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseH.4F10A920.Up2Date
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.exe
+C:\Users\alexr\OneDrive\Escritorio\HotelSunrise - copia\sunrise_hotel\SunriseHotel\obj\Debug\SunriseHotel.pdb

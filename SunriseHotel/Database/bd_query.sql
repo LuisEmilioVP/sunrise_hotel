@@ -23,7 +23,7 @@ VALUES
 GO
 
 
-SELECT * FROM usuarios WHERE nombre LIKE 'Juan';
+SELECT * FROM usuarios WHERE nombre LIKE 'jpg';
 GO
 
 SELECT * FROM usuarios
@@ -38,12 +38,25 @@ CREATE TABLE habitacion (
 );
 GO
 
+SELECT * FROM habitacion
+GO
+
 CREATE TABLE tipo_habitacion (
   id_tipo_habitacion int PRIMARY KEY IDENTITY(1,1),
   tipo_nombre varchar(50) NOT NULL,
   tipo_descripcion varchar(250) NULL,
 );
 GO
+
+SELECT * FROM tipo_habitacion
+GO
+
+--Estándar: con dos camas individuales o una doble.
+--Ejecutiva: con dos camas individuales o una cama matrimonial.
+--Familiar: con capacidad para dos niños y dos adultos.
+--Triple: para tres personas.
+--Cuádruple: para cuatro personas.
+--Suite: dos o más habitaciones, al menos un dormitorio y una sala de estar.
 
 CREATE TABLE clientes(
   id_cliente int PRIMARY KEY IDENTITY(1,1),
@@ -52,6 +65,9 @@ CREATE TABLE clientes(
   email varchar(150) NOT NULL,
   telefono varchar(20) NOT NULL
 );
+GO
+
+SELECT * FROM clientes
 GO
 
 CREATE TABLE reservaciones (
@@ -68,3 +84,12 @@ CREATE TABLE reservaciones (
   cambiar float NULL
 );
 GO
+
+SELECT * FROM reservaciones
+GO
+
+SELECT r.id_reservacion, r.id_cliente, c.nombre, r.id_habitacion, h.hab_nombre, r.fecha_entrada, r.fecha_salida, r.dias, r.cantidad, r.estatus
+FROM reservaciones r
+INNER JOIN clientes c ON c.id_cliente = r.id_cliente
+INNER JOIN habitacion h ON h.id_habitacion = r.id_habitacion
+Go

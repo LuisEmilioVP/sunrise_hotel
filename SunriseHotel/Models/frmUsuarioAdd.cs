@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using Guna.UI2.WinForms;
 
 namespace SunriseHotel.Models
 {
@@ -14,6 +15,14 @@ namespace SunriseHotel.Models
 
         public override void btnGuardar_Click(object sender, EventArgs e)
         {
+            if (MainClass.ItensIsEmpty(this))
+            {
+                messageSystem.Icon = MessageDialogIcon.Information;
+                messageSystem.Buttons = MessageDialogButtons.OK;
+                messageSystem.Show("Por favor llene todos los campos");
+                return;
+            }
+
             string query;
 
             if (id == 0) // Guardar
@@ -40,7 +49,7 @@ namespace SunriseHotel.Models
             {
                 MainClass.ClearAll(this);
                 txtNombre.Focus();
-                messageSystem.Show("Datos guardados");
+                messageSystem.Show("Datos guardados correctamente.");
                 id = 0;
             }   
         }
