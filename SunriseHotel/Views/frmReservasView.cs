@@ -30,25 +30,17 @@ namespace SunriseHotel.Views
             lb.Items.Add(dgvDia);
             lb.Items.Add(dgvPrecio);
             lb.Items.Add(dgvCantidad);
+            lb.Items.Add(dgvEstatus);
             lb.Items.Add(dgvCambiar);
             lb.Items.Add(dgvRecibido);
-            lb.Items.Add(dgvEstatus);
 
             string query = @"SELECT r.id_reservacion, r.id_cliente, c.nombre, r.id_habitacion, h.hab_nombre, 
-                 r.fecha_entrada, r.fecha_salida, r.dias, r.precio, r.cantidad, r.recibido, r.cambiar, r.estatus
-                 FROM reservaciones r
-                 INNER JOIN habitacion h ON h.id_habitacion = r.id_habitacion
-                 INNER JOIN clientes c ON c.id_cliente = r.id_cliente
-                 WHERE h.hab_nombre LIKE '%" + txtBuscar.Text + "%' " +
-                 "OR c.nombre LIKE '%" + txtBuscar.Text + "%'";
-
-
-            //string query = @"SELECT r.id_reservacion, r.id_cliente, c.nombre, r.id_habitacion, h.hab_nombre, 
-            //                r.fecha_entrada, r.fecha_salida, r.dias, r.cantidad, r.estatus
-            //                FROM reservaciones r
-            //                INNER JOIN habitacion h ON h.id_habitacion = r.id_habitacion
-            //                INNER JOIN clientes c ON c.id_cliente = r.id_cliente
-            //                WHERE hab_nombre LIKE '%" + txtBuscar.Text + "%'";
+                                    r.fecha_entrada, r.fecha_salida, r.dias, r.precio, r.cantidad, r.estatus,
+                                    r.cambiar, r.recibido
+                                    FROM reservaciones r
+                                    INNER JOIN clientes c ON c.id_cliente = r.id_cliente
+                                    INNER JOIN habitacion h ON h.id_habitacion = r.id_habitacion
+                                    WHERE h.hab_nombre LIKE '%" + txtBuscar.Text + "%'";
 
             MainClass.CargarData(query, tablaHabitacion, lb);
         }
@@ -68,9 +60,9 @@ namespace SunriseHotel.Views
                 frm.txtDias.Text = Convert.ToString(tablaHabitacion.CurrentRow.Cells["dgvDia"].Value);
                 frm.txtPrepcio.Text = Convert.ToString(tablaHabitacion.CurrentRow.Cells["dgvPrecio"].Value);
                 frm.txtCantidad.Text = Convert.ToString(tablaHabitacion.CurrentRow.Cells["dgvCantidad"].Value);
+                frm.cbEstado.Text = Convert.ToString(tablaHabitacion.CurrentRow.Cells["dgvEstatus"].Value);
                 frm.txtCambiar.Text = Convert.ToString(tablaHabitacion.CurrentRow.Cells["dgvCambiar"].Value);
                 frm.txtRecibido.Text = Convert.ToString(tablaHabitacion.CurrentRow.Cells["dgvRecibido"].Value);
-                frm.cbEstado.Text = Convert.ToString(tablaHabitacion.CurrentRow.Cells["dgvEstatus"].Value);
 
                 MainClass.BlurBackground(frm);
                 CargarDataUsers();

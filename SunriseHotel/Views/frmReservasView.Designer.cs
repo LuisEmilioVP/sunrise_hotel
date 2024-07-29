@@ -251,7 +251,7 @@
             // 
             // dgvIdCliente
             // 
-            this.dgvIdCliente.HeaderText = "IDCliente";
+            this.dgvIdCliente.HeaderText = "IdCliente";
             this.dgvIdCliente.Name = "dgvIdCliente";
             this.dgvIdCliente.ReadOnly = true;
             this.dgvIdCliente.Visible = false;
@@ -264,14 +264,14 @@
             // 
             // dgvIDHabit
             // 
-            this.dgvIDHabit.HeaderText = "IDHabitacion";
+            this.dgvIDHabit.HeaderText = "IdHabitacion";
             this.dgvIDHabit.Name = "dgvIDHabit";
             this.dgvIDHabit.ReadOnly = true;
             this.dgvIDHabit.Visible = false;
             // 
             // dgvHabitacion
             // 
-            this.dgvHabitacion.HeaderText = "Habitacón";
+            this.dgvHabitacion.HeaderText = "Habitación";
             this.dgvHabitacion.Name = "dgvHabitacion";
             this.dgvHabitacion.ReadOnly = true;
             // 
@@ -289,7 +289,7 @@
             // 
             // dgvDia
             // 
-            this.dgvDia.HeaderText = "Dias";
+            this.dgvDia.HeaderText = "Días";
             this.dgvDia.Name = "dgvDia";
             this.dgvDia.ReadOnly = true;
             // 
@@ -301,25 +301,25 @@
             // 
             // dgvCantidad
             // 
-            this.dgvCantidad.HeaderText = "Cantidad";
+            this.dgvCantidad.HeaderText = "Total";
             this.dgvCantidad.Name = "dgvCantidad";
             this.dgvCantidad.ReadOnly = true;
             // 
             // dgvEstatus
             // 
-            this.dgvEstatus.HeaderText = "Estatus";
+            this.dgvEstatus.HeaderText = "Estado";
             this.dgvEstatus.Name = "dgvEstatus";
             this.dgvEstatus.ReadOnly = true;
             // 
             // dgvRecibido
             // 
-            this.dgvRecibido.HeaderText = "Recibido";
+            this.dgvRecibido.HeaderText = "Monto Recibido";
             this.dgvRecibido.Name = "dgvRecibido";
             this.dgvRecibido.ReadOnly = true;
             // 
             // dgvCambiar
             // 
-            this.dgvCambiar.HeaderText = "Cambiar";
+            this.dgvCambiar.HeaderText = "Restante";
             this.dgvCambiar.Name = "dgvCambiar";
             this.dgvCambiar.ReadOnly = true;
             // 
