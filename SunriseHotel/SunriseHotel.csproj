@@ -52,6 +52,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DetallesHabitacion\DetallesHabitaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetallesHabitacion\DetallesHabitaciones.Designer.cs">
+      <DependentUpon>DetallesHabitaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetallesHabitacion\hab1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetallesHabitacion\hab1.Designer.cs">
+      <DependentUpon>hab1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetallesHabitacion\hab2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetallesHabitacion\hab2.Designer.cs">
+      <DependentUpon>hab2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetallesHabitacion\habcero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetallesHabitacion\habcero.Designer.cs">
+      <DependentUpon>habcero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetallesHabitacion\villa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetallesHabitacion\villa.Designer.cs">
+      <DependentUpon>villa.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAddInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +169,21 @@
     <Compile Include="Views\frmUsuariosView.Designer.cs">
       <DependentUpon>frmUsuariosView.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DetallesHabitacion\DetallesHabitaciones.resx">
+      <DependentUpon>DetallesHabitaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetallesHabitacion\hab1.resx">
+      <DependentUpon>hab1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetallesHabitacion\hab2.resx">
+      <DependentUpon>hab2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetallesHabitacion\habcero.resx">
+      <DependentUpon>habcero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetallesHabitacion\villa.resx">
+      <DependentUpon>villa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAddInfo.resx">
       <DependentUpon>frmAddInfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -212,6 +257,36 @@
     <Content Include="assets\images\cliet.png" />
     <Content Include="assets\images\cliet2.png" />
     <Content Include="Database\bd_query.sql" />
+    <None Include="Resources\praaaa %281%29.png" />
+    <None Include="Resources\pixelcut-export %283%29.png" />
+    <None Include="Resources\praaaa.png" />
+    <None Include="Resources\pixelcut-export %282%29.png" />
+    <None Include="Resources\Diseño sin título %285%29.png" />
+    <None Include="Resources\pixelcut-export %281%29.png" />
+    <None Include="Resources\usuario2.png" />
+    <None Include="Resources\usuario %281%29.png" />
+    <None Include="Resources\estrellas %282%29.png" />
+    <None Include="Resources\estrellas %281%29.png" />
+    <None Include="Resources\estrellas.png" />
+    <None Include="Resources\ubicacion-de-la-capa-terrestre.png" />
+    <None Include="Resources\pixelcut-export.png" />
+    <None Include="Resources\pines.png" />
+    <None Include="Resources\Diseño sin título %284%29.png" />
+    <None Include="Resources\Diseño sin título %283%29.png" />
+    <None Include="Resources\descarga.jpg" />
+    <None Include="Resources\SP2.png" />
+    <None Include="Resources\Diseño sin título %282%29.png" />
+    <None Include="Resources\Diseño sin título %281%29.png" />
+    <None Include="Resources\SuitPresidencialHOME.png" />
+    <None Include="Resources\PremiereJunior.jpg" />
+    <None Include="Resources\mapa %281%29.png" />
+    <None Include="Resources\HabitacionesNew.png" />
+    <None Include="Resources\corazon1.png" />
+    <None Include="Resources\corazon %281%29.png" />
+    <None Include="Resources\corazon.png" />
+    <None Include="Resources\Es tiempo de que planees tus vacaciones!!1.png" />
+    <None Include="Resources\Es tiempo de que planees tus vacaciones!!.png" />
+    <None Include="Resources\585e4adacb11b227491c3392.png" />
     <None Include="assets\images\close.png" />
     <Content Include="assets\images\cut.png" />
     <Content Include="assets\images\cut2.png" />
