@@ -39,6 +39,7 @@
             this.mainpanel = new System.Windows.Forms.Panel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.navPanel.SuspendLayout();
             this.mainpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -62,7 +63,7 @@
             this.btnMin.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
             this.btnMin.FillColor = System.Drawing.Color.White;
             this.btnMin.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(156)))), ((int)(((byte)(18)))));
-            this.btnMin.Location = new System.Drawing.Point(1080, 4);
+            this.btnMin.Location = new System.Drawing.Point(1080, 2);
             this.btnMin.Name = "btnMin";
             this.btnMin.Size = new System.Drawing.Size(82, 47);
             this.btnMin.TabIndex = 2;
@@ -73,7 +74,7 @@
             this.btnMaxi.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
             this.btnMaxi.FillColor = System.Drawing.Color.White;
             this.btnMaxi.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(156)))), ((int)(((byte)(18)))));
-            this.btnMaxi.Location = new System.Drawing.Point(1168, 4);
+            this.btnMaxi.Location = new System.Drawing.Point(1168, 2);
             this.btnMaxi.Name = "btnMaxi";
             this.btnMaxi.Size = new System.Drawing.Size(82, 47);
             this.btnMaxi.TabIndex = 1;
@@ -83,7 +84,7 @@
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.FillColor = System.Drawing.Color.White;
             this.btnClose.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(156)))), ((int)(((byte)(18)))));
-            this.btnClose.Location = new System.Drawing.Point(1256, 4);
+            this.btnClose.Location = new System.Drawing.Point(1256, 2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(82, 47);
             this.btnClose.TabIndex = 0;
@@ -171,11 +172,11 @@
             // 
             // mainpanel
             // 
+            this.mainpanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.mainpanel.Controls.Add(this.guna2PictureBox1);
-            this.mainpanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.mainpanel.Location = new System.Drawing.Point(0, 121);
+            this.mainpanel.Location = new System.Drawing.Point(0, 104);
             this.mainpanel.Name = "mainpanel";
-            this.mainpanel.Size = new System.Drawing.Size(1348, 664);
+            this.mainpanel.Size = new System.Drawing.Size(1348, 677);
             this.mainpanel.TabIndex = 11;
             this.mainpanel.Paint += new System.Windows.Forms.PaintEventHandler(this.mainpanel_Paint);
             // 
@@ -183,7 +184,7 @@
             // 
             this.guna2PictureBox1.Image = global::SunriseHotel.Properties.Resources.logo_2;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(551, 169);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(510, 169);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(302, 219);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -197,6 +198,14 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(1348, 10);
             this.guna2Panel1.TabIndex = 12;
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2Panel2.Location = new System.Drawing.Point(13, 44);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(950, 41);
+            this.guna2Panel2.TabIndex = 13;
             // 
             // detallesHabitacione
             // 
@@ -212,6 +221,7 @@
             this.Controls.Add(this.boton3);
             this.Controls.Add(this.navPanel);
             this.Controls.Add(this.boton2);
+            this.Controls.Add(this.guna2Panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "detallesHabitacione";
             this.Text = "Detalles Habitaciones";
@@ -235,5 +245,6 @@
         private System.Windows.Forms.Panel mainpanel;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
     }
 }

@@ -32,5 +32,14 @@ namespace SunriseHotel.Views
         {
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+           
+            Form reservasopen = new frmReservasView();
+
+            reservasopen.ShowDialog();
+
+        }
     }
 }

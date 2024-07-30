@@ -421,6 +421,7 @@
             this.guna2Button1.Text = "Reserve ahora";
             this.guna2Button1.TextOffset = new System.Drawing.Point(0, -1);
             this.guna2Button1.UseTransparentBackground = true;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2HtmlLabel3
             // 
