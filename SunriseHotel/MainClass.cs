@@ -10,9 +10,7 @@ using Guna.UI2.WinForms;
 namespace SunriseHotel
 {
     class MainClass
-    {
-        // Server=DESKTOP-I17B7NG;Database=DBVENTA;User ID=sa;Password=@Data-Base;MultipleActiveResultSets=true
-        
+    {   
         public static readonly string connet = "Data Source=DESKTOP-UTP1H92;Initial Catalog=db_sys_hotel;User ID=Alis_1;Password=12345678;";
         public static SqlConnection con = new SqlConnection(connet);
 

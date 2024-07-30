@@ -94,7 +94,7 @@
             this.navMenuPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.navMenuPanel.Location = new System.Drawing.Point(0, 0);
             this.navMenuPanel.Name = "navMenuPanel";
-            this.navMenuPanel.Size = new System.Drawing.Size(252, 749);
+            this.navMenuPanel.Size = new System.Drawing.Size(255, 749);
             this.navMenuPanel.TabIndex = 0;
             // 
             // itenUsuario
@@ -279,7 +279,7 @@
             this.itenInicio.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.itenInicio.ImageOffset = new System.Drawing.Point(12, 0);
             this.itenInicio.ImageSize = new System.Drawing.Size(65, 65);
-            this.itenInicio.Location = new System.Drawing.Point(-2, 236);
+            this.itenInicio.Location = new System.Drawing.Point(-4, 236);
             this.itenInicio.Name = "itenInicio";
             this.itenInicio.Size = new System.Drawing.Size(254, 60);
             this.itenInicio.TabIndex = 0;
@@ -368,21 +368,6 @@
             this.guna2HtmlLabel8.TabIndex = 24;
             this.guna2HtmlLabel8.Text = "View all";
             // 
-<<<<<<< HEAD
-=======
-            // guna2PictureBox4
-            // 
-            this.guna2PictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2PictureBox4.Image = global::SunriseHotel.Properties.Resources.mapa__1_;
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(826, 460);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(254, 238);
-            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.guna2PictureBox4.TabIndex = 22;
-            this.guna2PictureBox4.TabStop = false;
-            // 
->>>>>>> bcfdae644684209caf1cb7ead89dce04070784f1
             // guna2HtmlLabel6
             // 
             this.guna2HtmlLabel6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -394,32 +379,6 @@
             this.guna2HtmlLabel6.TabIndex = 21;
             this.guna2HtmlLabel6.Text = "Ubicacion";
             // 
-<<<<<<< HEAD
-=======
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2PictureBox3.Image = global::SunriseHotel.Properties.Resources.HabitacionesNew;
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(840, 102);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(238, 308);
-            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.guna2PictureBox3.TabIndex = 20;
-            this.guna2PictureBox3.TabStop = false;
-            // 
-            // guna2HtmlLabel5
-            // 
-            this.guna2HtmlLabel5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(840, 73);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(158, 23);
-            this.guna2HtmlLabel5.TabIndex = 19;
-            this.guna2HtmlLabel5.Text = "Vistos recientemente";
-            // 
->>>>>>> bcfdae644684209caf1cb7ead89dce04070784f1
             // guna2CircleButton3
             // 
             this.guna2CircleButton3.BackColor = System.Drawing.Color.Transparent;
@@ -767,6 +726,7 @@
             // 
             // guna2PictureBox4
             // 
+            this.guna2PictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2PictureBox4.Image = global::SunriseHotel.Properties.Resources.mapa__1_;
             this.guna2PictureBox4.ImageRotate = 0F;
             this.guna2PictureBox4.Location = new System.Drawing.Point(7, 403);
@@ -778,6 +738,7 @@
             // 
             // guna2HtmlLabel5
             // 
+            this.guna2HtmlLabel5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(10, 12);
@@ -788,6 +749,7 @@
             // 
             // guna2PictureBox3
             // 
+            this.guna2PictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2PictureBox3.Image = global::SunriseHotel.Properties.Resources.HabitacionesNew;
             this.guna2PictureBox3.ImageRotate = 0F;
             this.guna2PictureBox3.Location = new System.Drawing.Point(10, 58);
@@ -812,9 +774,9 @@
             this.navPanel.Controls.Add(this.btnMaxi);
             this.navPanel.Controls.Add(this.btnClose);
             this.navPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.navPanel.Location = new System.Drawing.Point(252, 0);
+            this.navPanel.Location = new System.Drawing.Point(255, 0);
             this.navPanel.Name = "navPanel";
-            this.navPanel.Size = new System.Drawing.Size(1112, 55);
+            this.navPanel.Size = new System.Drawing.Size(1109, 55);
             this.navPanel.TabIndex = 1;
             // 
             // btnMin
@@ -823,7 +785,7 @@
             this.btnMin.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
             this.btnMin.FillColor = System.Drawing.Color.White;
             this.btnMin.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(156)))), ((int)(((byte)(18)))));
-            this.btnMin.Location = new System.Drawing.Point(844, 4);
+            this.btnMin.Location = new System.Drawing.Point(841, 4);
             this.btnMin.Name = "btnMin";
             this.btnMin.Size = new System.Drawing.Size(82, 47);
             this.btnMin.TabIndex = 2;
@@ -834,7 +796,7 @@
             this.btnMaxi.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
             this.btnMaxi.FillColor = System.Drawing.Color.White;
             this.btnMaxi.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(156)))), ((int)(((byte)(18)))));
-            this.btnMaxi.Location = new System.Drawing.Point(932, 4);
+            this.btnMaxi.Location = new System.Drawing.Point(929, 4);
             this.btnMaxi.Name = "btnMaxi";
             this.btnMaxi.Size = new System.Drawing.Size(82, 47);
             this.btnMaxi.TabIndex = 1;
@@ -844,7 +806,7 @@
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.FillColor = System.Drawing.Color.White;
             this.btnClose.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(156)))), ((int)(((byte)(18)))));
-            this.btnClose.Location = new System.Drawing.Point(1020, 4);
+            this.btnClose.Location = new System.Drawing.Point(1017, 4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(82, 47);
             this.btnClose.TabIndex = 0;
