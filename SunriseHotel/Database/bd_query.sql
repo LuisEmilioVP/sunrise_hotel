@@ -4,6 +4,7 @@ Go
 USE db_sys_hotel
 GO
 
+
 CREATE TABLE usuarios (
   id_usuario int PRIMARY KEY IDENTITY(1,1),
   nombre varchar(50) NOT NULL,
@@ -23,8 +24,11 @@ VALUES
 GO
 
 
-SELECT * FROM usuarios WHERE nombre LIKE 'jpg';
+SELECT * FROM usuarios WHERE nombre LIKE 'María';
 GO
+
+DELETE FROM usuarios WHERE id_usuario = 7;
+Go
 
 SELECT * FROM usuarios
 GO
@@ -88,9 +92,9 @@ GO
 SELECT * FROM reservaciones
 GO
 
-SELECT r.id_reservacion, r.id_cliente, c.nombre, r.id_habitacion, h.hab_nombre, r.fecha_entrada, r.fecha_salida, r.estatus, r.dias, r.precio, r.cantidad, r.recibido, r.cambiar
+SELECT r.id_reservacion, r.id_cliente, c.nombre, r.id_habitacion, h.hab_nombre, r.fecha_entrada,
+r.fecha_salida, r.estatus, r.dias, r.precio, r.cantidad, r.recibido, r.cambiar
 FROM reservaciones r
 INNER JOIN clientes c ON c.id_cliente = r.id_cliente
 INNER JOIN habitacion h ON h.id_habitacion = r.id_habitacion
-WHERE h.hab_nombre LIKE "";
 Go
