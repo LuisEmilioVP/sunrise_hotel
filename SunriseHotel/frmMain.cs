@@ -1,6 +1,8 @@
-﻿using SunriseHotel.Views;
+﻿using SunriseHotel.DetallesHabitaciones;
+using SunriseHotel.Views;
 using System;
 using System.Windows.Forms;
+
 
 namespace SunriseHotel
 {
@@ -84,5 +86,21 @@ namespace SunriseHotel
         {
 
         }
+
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+        
+            Form detallesHab = new detallesHabitacione();
+            
+            detallesHab.ShowDialog();
+
+        }
+
+       
     }
 }

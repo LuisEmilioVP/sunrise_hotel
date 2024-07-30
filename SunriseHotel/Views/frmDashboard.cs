@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SunriseHotel.DetallesHabitaciones;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,21 @@ namespace SunriseHotel.Views
         public frmDashboard()
         {
             InitializeComponent();
+        }
+
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+            
+            Form detallesHab = new detallesHabitacione();
+
+            detallesHab.ShowDialog();
+
+           
+        }
+
+        private void containerPanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
